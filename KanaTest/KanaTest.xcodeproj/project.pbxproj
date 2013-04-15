@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82334D7816EF2884002813C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82334D7716EF2884002813C6 /* UIKit.framework */; };
+		82334D7A16EF2884002813C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82334D7916EF2884002813C6 /* Foundation.framework */; };
+		82334D7C16EF2884002813C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82334D7B16EF2884002813C6 /* CoreGraphics.framework */; };
+		82334D8216EF2884002813C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82334D8016EF2884002813C6 /* InfoPlist.strings */; };
+		82334D8416EF2884002813C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82334D8316EF2884002813C6 /* main.m */; };
+		82334D8816EF2884002813C6 /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82334D8716EF2884002813C6 /* KTAppDelegate.m */; };
+		82334D9116EF2884002813C6 /* KTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82334D9016EF2884002813C6 /* KTMainViewController.m */; };
+		82334D9416EF2884002813C6 /* KTFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82334D9316EF2884002813C6 /* KTFlipsideViewController.m */; };
+		82334D9716EF2884002813C6 /* KTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82334D9516EF2884002813C6 /* KTMainViewController.xib */; };
+		82334D9A16EF2884002813C6 /* KTFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82334D9816EF2884002813C6 /* KTFlipsideViewController.xib */; };
+		82334DA116EF28A2002813C6 /* hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82334DA016EF28A2002813C6 /* hiragana.plist */; };
+		82334DA316EF2A3F002813C6 /* katakana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82334DA216EF2A3F002813C6 /* katakana.plist */; };
+		82334DA516EF2B36002813C6 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DA416EF2B36002813C6 /* menu.png */; };
+		82334DA716EF2B4F002813C6 /* intest.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DA616EF2B4F002813C6 /* intest.png */; };
+		82334DA916EF2B62002813C6 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DA816EF2B62002813C6 /* result.png */; };
+		82334DB016EF3058002813C6 /* btn-hira.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DAE16EF3058002813C6 /* btn-hira.png */; };
+		82334DB116EF3058002813C6 /* btn-kata.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DAF16EF3058002813C6 /* btn-kata.png */; };
+		82334DB516EF314E002813C6 /* KTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82334DB316EF314E002813C6 /* KTTestViewController.m */; };
+		82334DB616EF314E002813C6 /* KTTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82334DB416EF314E002813C6 /* KTTestViewController.xib */; };
+		82334DB916EF33BE002813C6 /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 82334DB816EF33BE002813C6 /* WToast.m */; };
+		82334DBD16EF3C95002813C6 /* KTCompletionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82334DBB16EF3C95002813C6 /* KTCompletionViewController.m */; };
+		82334DBE16EF3C95002813C6 /* KTCompletionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82334DBC16EF3C95002813C6 /* KTCompletionViewController.xib */; };
+		82334DC016EF4246002813C6 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DBF16EF4246002813C6 /* about.png */; };
+		82334DC216EF45EB002813C6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DC116EF45EB002813C6 /* Icon.png */; };
+		82334DC416EF45ED002813C6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DC316EF45ED002813C6 /* Icon@2x.png */; };
+		82334DC616EF4679002813C6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DC516EF4679002813C6 /* Default.png */; };
+		82334DC816EF4735002813C6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DC716EF4735002813C6 /* Default@2x.png */; };
+		82334DCA16EF4781002813C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82334DC916EF4781002813C6 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82334D7416EF2884002813C6 /* KanaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82334D7716EF2884002813C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82334D7916EF2884002813C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82334D7B16EF2884002813C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82334D7F16EF2884002813C6 /* KanaTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KanaTest-Info.plist"; sourceTree = "<group>"; };
+		82334D8116EF2884002813C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82334D8316EF2884002813C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82334D8516EF2884002813C6 /* KanaTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KanaTest-Prefix.pch"; sourceTree = "<group>"; };
+		82334D8616EF2884002813C6 /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
+		82334D8716EF2884002813C6 /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
+		82334D8F16EF2884002813C6 /* KTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTMainViewController.h; sourceTree = "<group>"; };
+		82334D9016EF2884002813C6 /* KTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTMainViewController.m; sourceTree = "<group>"; };
+		82334D9216EF2884002813C6 /* KTFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTFlipsideViewController.h; sourceTree = "<group>"; };
+		82334D9316EF2884002813C6 /* KTFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTFlipsideViewController.m; sourceTree = "<group>"; };
+		82334D9616EF2884002813C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KTMainViewController.xib; sourceTree = "<group>"; };
+		82334D9916EF2884002813C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KTFlipsideViewController.xib; sourceTree = "<group>"; };
+		82334DA016EF28A2002813C6 /* hiragana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = hiragana.plist; sourceTree = "<group>"; };
+		82334DA216EF2A3F002813C6 /* katakana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = katakana.plist; path = ../katakana.plist; sourceTree = "<group>"; };
+		82334DA416EF2B36002813C6 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		82334DA616EF2B4F002813C6 /* intest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intest.png; sourceTree = "<group>"; };
+		82334DA816EF2B62002813C6 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
+		82334DAE16EF3058002813C6 /* btn-hira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-hira.png"; sourceTree = "<group>"; };
+		82334DAF16EF3058002813C6 /* btn-kata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-kata.png"; sourceTree = "<group>"; };
+		82334DB216EF314E002813C6 /* KTTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTestViewController.h; sourceTree = "<group>"; };
+		82334DB316EF314E002813C6 /* KTTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTestViewController.m; sourceTree = "<group>"; };
+		82334DB416EF314E002813C6 /* KTTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTTestViewController.xib; sourceTree = "<group>"; };
+		82334DB716EF33BE002813C6 /* WToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WToast.h; sourceTree = "<group>"; };
+		82334DB816EF33BE002813C6 /* WToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WToast.m; sourceTree = "<group>"; };
+		82334DBA16EF3C95002813C6 /* KTCompletionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTCompletionViewController.h; sourceTree = "<group>"; };
+		82334DBB16EF3C95002813C6 /* KTCompletionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCompletionViewController.m; sourceTree = "<group>"; };
+		82334DBC16EF3C95002813C6 /* KTCompletionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTCompletionViewController.xib; sourceTree = "<group>"; };
+		82334DBF16EF4246002813C6 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		82334DC116EF45EB002813C6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		82334DC316EF45ED002813C6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		82334DC516EF4679002813C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82334DC716EF4735002813C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		82334DC916EF4781002813C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82334D7116EF2884002813C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82334D7816EF2884002813C6 /* UIKit.framework in Frameworks */,
+				82334D7A16EF2884002813C6 /* Foundation.framework in Frameworks */,
+				82334D7C16EF2884002813C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82334D6B16EF2884002813C6 = {
+			isa = PBXGroup;
+			children = (
+				82334DC916EF4781002813C6 /* Default-568h@2x.png */,
+				82334DC716EF4735002813C6 /* Default@2x.png */,
+				82334DC516EF4679002813C6 /* Default.png */,
+				82334DC316EF45ED002813C6 /* Icon@2x.png */,
+				82334DC116EF45EB002813C6 /* Icon.png */,
+				82334D7D16EF2884002813C6 /* KanaTest */,
+				82334D7616EF2884002813C6 /* Frameworks */,
+				82334D7516EF2884002813C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82334D7516EF2884002813C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82334D7416EF2884002813C6 /* KanaTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82334D7616EF2884002813C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82334D7716EF2884002813C6 /* UIKit.framework */,
+				82334D7916EF2884002813C6 /* Foundation.framework */,
+				82334D7B16EF2884002813C6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82334D7D16EF2884002813C6 /* KanaTest */ = {
+			isa = PBXGroup;
+			children = (
+				82334DA016EF28A2002813C6 /* hiragana.plist */,
+				82334DA216EF2A3F002813C6 /* katakana.plist */,
+				82334DB716EF33BE002813C6 /* WToast.h */,
+				82334DB816EF33BE002813C6 /* WToast.m */,
+				82334DBF16EF4246002813C6 /* about.png */,
+				82334DA616EF2B4F002813C6 /* intest.png */,
+				82334DA416EF2B36002813C6 /* menu.png */,
+				82334DA816EF2B62002813C6 /* result.png */,
+				82334DAE16EF3058002813C6 /* btn-hira.png */,
+				82334DAF16EF3058002813C6 /* btn-kata.png */,
+				82334D8616EF2884002813C6 /* KTAppDelegate.h */,
+				82334D8716EF2884002813C6 /* KTAppDelegate.m */,
+				82334DB216EF314E002813C6 /* KTTestViewController.h */,
+				82334DB316EF314E002813C6 /* KTTestViewController.m */,
+				82334DB416EF314E002813C6 /* KTTestViewController.xib */,
+				82334D8F16EF2884002813C6 /* KTMainViewController.h */,
+				82334D9016EF2884002813C6 /* KTMainViewController.m */,
+				82334D9216EF2884002813C6 /* KTFlipsideViewController.h */,
+				82334D9316EF2884002813C6 /* KTFlipsideViewController.m */,
+				82334D9516EF2884002813C6 /* KTMainViewController.xib */,
+				82334D9816EF2884002813C6 /* KTFlipsideViewController.xib */,
+				82334DBA16EF3C95002813C6 /* KTCompletionViewController.h */,
+				82334DBB16EF3C95002813C6 /* KTCompletionViewController.m */,
+				82334DBC16EF3C95002813C6 /* KTCompletionViewController.xib */,
+				82334D7E16EF2884002813C6 /* Supporting Files */,
+			);
+			path = KanaTest;
+			sourceTree = "<group>";
+		};
+		82334D7E16EF2884002813C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82334D7F16EF2884002813C6 /* KanaTest-Info.plist */,
+				82334D8016EF2884002813C6 /* InfoPlist.strings */,
+				82334D8316EF2884002813C6 /* main.m */,
+				82334D8516EF2884002813C6 /* KanaTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82334D7316EF2884002813C6 /* KanaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82334D9D16EF2884002813C6 /* Build configuration list for PBXNativeTarget "KanaTest" */;
+			buildPhases = (
+				82334D7016EF2884002813C6 /* Sources */,
+				82334D7116EF2884002813C6 /* Frameworks */,
+				82334D7216EF2884002813C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanaTest;
+			productName = KanaTest;
+			productReference = 82334D7416EF2884002813C6 /* KanaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82334D6C16EF2884002813C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vladislav Korotnev";
+			};
+			buildConfigurationList = 82334D6F16EF2884002813C6 /* Build configuration list for PBXProject "KanaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82334D6B16EF2884002813C6;
+			productRefGroup = 82334D7516EF2884002813C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82334D7316EF2884002813C6 /* KanaTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82334D7216EF2884002813C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82334D8216EF2884002813C6 /* InfoPlist.strings in Resources */,
+				82334D9716EF2884002813C6 /* KTMainViewController.xib in Resources */,
+				82334D9A16EF2884002813C6 /* KTFlipsideViewController.xib in Resources */,
+				82334DA116EF28A2002813C6 /* hiragana.plist in Resources */,
+				82334DA316EF2A3F002813C6 /* katakana.plist in Resources */,
+				82334DA516EF2B36002813C6 /* menu.png in Resources */,
+				82334DA716EF2B4F002813C6 /* intest.png in Resources */,
+				82334DA916EF2B62002813C6 /* result.png in Resources */,
+				82334DB016EF3058002813C6 /* btn-hira.png in Resources */,
+				82334DB116EF3058002813C6 /* btn-kata.png in Resources */,
+				82334DB616EF314E002813C6 /* KTTestViewController.xib in Resources */,
+				82334DBE16EF3C95002813C6 /* KTCompletionViewController.xib in Resources */,
+				82334DC016EF4246002813C6 /* about.png in Resources */,
+				82334DC216EF45EB002813C6 /* Icon.png in Resources */,
+				82334DC416EF45ED002813C6 /* Icon@2x.png in Resources */,
+				82334DC616EF4679002813C6 /* Default.png in Resources */,
+				82334DC816EF4735002813C6 /* Default@2x.png in Resources */,
+				82334DCA16EF4781002813C6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82334D7016EF2884002813C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82334D8416EF2884002813C6 /* main.m in Sources */,
+				82334D8816EF2884002813C6 /* KTAppDelegate.m in Sources */,
+				82334D9116EF2884002813C6 /* KTMainViewController.m in Sources */,
+				82334D9416EF2884002813C6 /* KTFlipsideViewController.m in Sources */,
+				82334DB516EF314E002813C6 /* KTTestViewController.m in Sources */,
+				82334DB916EF33BE002813C6 /* WToast.m in Sources */,
+				82334DBD16EF3C95002813C6 /* KTCompletionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82334D8016EF2884002813C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82334D8116EF2884002813C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82334D9516EF2884002813C6 /* KTMainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82334D9616EF2884002813C6 /* en */,
+			);
+			name = KTMainViewController.xib;
+			sourceTree = "<group>";
+		};
+		82334D9816EF2884002813C6 /* KTFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82334D9916EF2884002813C6 /* en */,
+			);
+			name = KTFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82334D9B16EF2884002813C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82334D9C16EF2884002813C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82334D9E16EF2884002813C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: neena arora (MZ67QX93NB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: neena arora (MZ67QX93NB)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KanaTest/KanaTest-Prefix.pch";
+				INFOPLIST_FILE = "KanaTest/KanaTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F3150EB9-748D-43F0-85C4-ECF3346EDAB1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F3150EB9-748D-43F0-85C4-ECF3346EDAB1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82334D9F16EF2884002813C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: neena arora";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: neena arora";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KanaTest/KanaTest-Prefix.pch";
+				INFOPLIST_FILE = "KanaTest/KanaTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "18E5BB75-7F5A-41A5-9078-FAF56B3F00DC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "18E5BB75-7F5A-41A5-9078-FAF56B3F00DC";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82334D6F16EF2884002813C6 /* Build configuration list for PBXProject "KanaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82334D9B16EF2884002813C6 /* Debug */,
+				82334D9C16EF2884002813C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82334D9D16EF2884002813C6 /* Build configuration list for PBXNativeTarget "KanaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82334D9E16EF2884002813C6 /* Debug */,
+				82334D9F16EF2884002813C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82334D6C16EF2884002813C6 /* Project object */;
+}
